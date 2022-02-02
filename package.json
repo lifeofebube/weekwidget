@@ -1,10 +1,10 @@
 {
   "name": "weekwdget",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A chat widget",
   "scripts": {
-    "serve": "cp -R src/assets dist/assets && parcel serve src/index.html"
+    "serve": "cp -R src/assets dist/assets && parcel serve src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
