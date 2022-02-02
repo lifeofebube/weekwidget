@@ -1,0 +1,16 @@
+{
+  "name": "weekwdget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cp -R src/assets dist/assets && parcel serve src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
