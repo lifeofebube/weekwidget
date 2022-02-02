@@ -2,6 +2,7 @@
   "name": "weekwdget",
   "version": "1.0.0",
   "description": "A chat widget",
+  "main": "dist/index.html",
   "scripts": {
     "serve": "cp -R src/assets dist/assets && parcel serve src/index.html",
     "build": "parcel build src/index.html"
